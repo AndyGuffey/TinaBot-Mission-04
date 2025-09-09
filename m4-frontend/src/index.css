@@ -1,0 +1,12 @@
+/* Tailwind Directives */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply font family to everything */
+html,
+body {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  background-color: #f8f9fa !important;
+}
