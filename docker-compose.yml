@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: ./m4-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - tinabot-network
+
+  backend:
+    build: ./m4-backend
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    networks:
+      - tinabot-network
+
+networks:
+  tinabot-network:
+    driver: bridge

@@ -10,7 +10,7 @@ export default function App() {
   const [log, setLog] = useState([
     {
       role: "interviewer",
-      text: "Hi! I'm TinaBot, Im here to help you choose the right insurance policy. Can I ask you a few questions to esure that we find the best policy for you?",
+      text: "Hi! I'm Tina, Im here to help you choose the right insurance policy. Can I ask you a few questions to esure that we find the best policy for you?",
     },
   ]);
   const [answer, setAnswer] = useState(""); // Current user input
@@ -46,7 +46,7 @@ export default function App() {
   //?  ==================================
 
   const MODEL = "gemini-2.5-flash"; // Specific AI model to use
-  const API_URL = "http://localhost:3000/chat"; // Backend API endpoint
+  const API_URL = "/api/chat"; // Backend API endpoint
 
   //?  ==================================
   //?  === SIDE EFFECTS
