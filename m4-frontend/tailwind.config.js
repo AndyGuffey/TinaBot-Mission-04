@@ -12,15 +12,15 @@ export default {
   daisyui: {
     themes: [
       {
-        tinabot: {
-          // Primary brand color (used for buttons, focus elements)
-          primary: "#1078d4", // Example: blue - replace with client's primary color
+        nzmai: {
+          // Primary brand color (NZMAI deep rose/burgundy)
+          primary: "#ce1252",
 
-          // Secondary color for accents and less prominent elements
-          secondary: "#b61937", // Example: green - replace with client's secondary color
+          // Secondary color for accents
+          secondary: "#f06aa9", // Light variant for hover states
 
           // Accent color for highlights
-          accent: "#4c94dc", // Example: orange - replace with accent color
+          accent: "#9d0d3a", // Darker variant for active states
 
           // Neutral colors for text, backgrounds
           neutral: "#212B36",
@@ -40,6 +40,6 @@ export default {
       "light", // Also include default light theme as fallback
     ],
     // Set your custom theme as default
-    darkTheme: "tinabot",
+    darkTheme: "nzmai",
   },
 };
