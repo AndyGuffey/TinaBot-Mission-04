@@ -1,6 +1,8 @@
 # AI Compliance Report Assistant (POC)
 
-<img src="m4-frontend/public/FS_email.png" alt="AI Compliance Report Assistant" width="100" height="100">
+<p align="center">
+  <img src="m4-frontend/public/FS_email.png" alt="AI Compliance Report Assistant" width="250">
+</p>
 
 This project began as TinaBot, an AI insurance policy chatbot, but has since been repurposed into a proof of concept for a mortgage/financial advisory use case. Instead of chatting with an end user, the application now ingests a batch of client documents and communications (fact finds, emails, statements of advice, etc.) and uses Google's Gemini AI to assess whether an adviser has met their compliance obligations under a structured financial planning process.
 
