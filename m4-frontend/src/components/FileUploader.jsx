@@ -85,12 +85,12 @@ export default function FileUploader({
             {loading ? (
               <>
                 <span className="loading loading-spinner loading-sm"></span>
-                Analyzing...
+                Analysing...
               </>
             ) : (
               <>
                 <span>📤</span>
-                Analyze Documents
+                Analyse Documents
               </>
             )}
           </button>

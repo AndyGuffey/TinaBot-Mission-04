@@ -7,25 +7,16 @@ export default function Footer() {
       <div className="flex items-center justify-between px-4 py-4 flex-wrap gap-6">
         {/* Forward Software */}
         <div className="flex items-center gap-3">
-          <img src="/FSC.png" alt="Forward Software" className="h-10 w-auto" />
+          <img
+            src="/no_bg_logo_FSS.png"
+            alt="Forward Software"
+            className="h-10 w-auto"
+          />
           <div className="text-sm">
             <p className="font-semibold" style={{ color: "#ce1252" }}>
               Forward Software
             </p>
             <p className="text-xs text-gray-500">Built by Andy Guffey</p>
-          </div>
-        </div>
-
-        {/* NZMAI */}
-        <div className="flex items-center gap-3">
-          <img src="/nzmai-logo.png" alt="NZMAI" className="h-10 w-auto" />
-          <div className="text-sm">
-            <p className="font-semibold" style={{ color: "#ce1252" }}>
-              NZMAI
-            </p>
-            <p className="text-xs text-gray-500">
-              New Zealand Mortgage Adviser Institute
-            </p>
           </div>
         </div>
 

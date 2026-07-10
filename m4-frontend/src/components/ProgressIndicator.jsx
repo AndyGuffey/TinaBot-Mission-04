@@ -1,7 +1,7 @@
 export default function ProgressIndicator({ step, percent }) {
   const steps = [
     { number: 1, label: "Extracting Documents" },
-    { number: 2, label: "Analyzing Content" },
+    { number: 2, label: "Analysing Content" },
     { number: 3, label: "Checking Compliance Rules" },
     { number: 4, label: "Generating Report" },
   ];
@@ -70,7 +70,7 @@ export default function ProgressIndicator({ step, percent }) {
           {steps[step - 1]?.label || "Completing..."}
         </p>
         <p className="text-sm text-gray-500">
-          Please wait while we analyze your documents...
+          Please wait while we analyse your documents...
         </p>
       </div>
 
